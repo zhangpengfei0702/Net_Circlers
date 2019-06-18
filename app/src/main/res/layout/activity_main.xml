@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/get_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="普通GET请求"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/get_param"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="带参数get请求"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/get_url" />
+
+
+
+    <Button
+        android:id="@+id/post_url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="post请求"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/get_param" />
+
+
+
+
+
+    <Button
+        android:id="@+id/post_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="上传图片"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_url" />
+
+
+
+    <Button
+        android:id="@+id/download_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下载文件"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/post_img" />
+
+
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
